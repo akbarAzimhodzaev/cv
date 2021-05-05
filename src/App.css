@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.modal {
+  position: fixed;
+  width: 200px;
+  height: 100px;
+  top: 100px;
+  left: 50%;
+  margin-left: -100px;
+  background: #ccc;
+  text-align: center;
+  padding: 30px;
+}
+
+.parent {
+  min-height: 100vh;
+}
